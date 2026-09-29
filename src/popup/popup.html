@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="popup.css">
+<title>Claude Exporter</title>
+</head>
+<body>
+<main>
+  <h1>Claude Exporter</h1>
+
+  <section class="formats">
+    <h2>Formats</h2>
+    <div id="format-list"></div>
+  </section>
+
+  <section class="actions">
+    <button id="export-current" class="primary" disabled>Export this conversation</button>
+    <p id="current-hint" class="hint">Checking the current tab…</p>
+    <button id="export-all">Export all conversations</button>
+    <p class="hint">Downloads a ZIP into your Downloads folder.</p>
+  </section>
+
+  <section id="progress" class="progress" hidden>
+    <div class="bar"><div id="bar-fill"></div></div>
+    <p id="progress-label" class="hint"></p>
+    <button id="cancel" class="link">Cancel</button>
+  </section>
+
+  <section id="outcome" class="outcome" hidden>
+    <p id="outcome-text"></p>
+    <button id="dismiss" class="link">Dismiss</button>
+  </section>
+</main>
+<script type="module" src="popup.js"></script>
+</body>
+</html>

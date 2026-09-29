@@ -1,0 +1,206 @@
+{
+  "uuid": "1b49b154-2464-406f-a55b-86f90933a0cf",
+  "name": "Conversation with attachments",
+  "summary": "",
+  "model": "claude-opus-5",
+  "created_at": "2026-09-01T21:01:01.116999Z",
+  "updated_at": "2026-09-01T21:01:29.463757Z",
+  "settings": {
+    "enabled_web_search": true,
+    "enabled_monkeys_in_a_barrel": true,
+    "enabled_saffron": false,
+    "tool_search_mode": "auto",
+    "thinking_mode": "auto",
+    "effort_level": "high",
+    "preview_feature_uses_artifacts": true,
+    "enabled_artifacts_attachments": false,
+    "enabled_turmeric": true
+  },
+  "is_starred": false,
+  "is_temporary": false,
+  "platform": "CLAUDE_AI",
+  "is_wiggle_enabled": true,
+  "effective_thinking_mode": "auto",
+  "current_leaf_message_uuid": "6cd1a1c5-d35c-486a-ac0b-aabc8acdb237",
+  "chat_messages": [
+    {
+      "uuid": "0a285d9b-f22f-4c94-a06d-79c1e1d8fb80",
+      "text": "",
+      "content": [
+        {
+          "start_timestamp": "2026-09-01T21:01:02.296038Z",
+          "stop_timestamp": "2026-09-01T21:01:02.296038Z",
+          "type": "text",
+          "text": "aliqua labore sit eiusmod incididunt do do adipiscing elit eiusmod elit minim et dolor minim elit do",
+          "citations": []
+        }
+      ],
+      "sender": "human",
+      "index": 0,
+      "created_at": "2026-09-01T21:01:02.296160Z",
+      "updated_at": "2026-09-01T21:01:02.296160Z",
+      "input_mode": "text",
+      "truncated": false,
+      "attachments": [],
+      "files": [
+        {
+          "success": true,
+          "file_kind": "image",
+          "file_uuid": "3ffb7385-98f2-41ef-a99b-fceebfa47ab8",
+          "file_name": "attachment-1.png",
+          "created_at": "2026-09-01T21:00:41.994363Z",
+          "thumbnail_url": "/api/f1231da2-074c-48b6-b530-d4aac8ffc1ce/files/1e6ae64e-fcc6-4fd1-b378-20e3c959ec6b/thumbnail",
+          "preview_url": "/api/f1231da2-074c-48b6-b530-d4aac8ffc1ce/files/1e6ae64e-fcc6-4fd1-b378-20e3c959ec6b/preview",
+          "thumbnail_asset": {
+            "url": "/api/f1231da2-074c-48b6-b530-d4aac8ffc1ce/files/1e6ae64e-fcc6-4fd1-b378-20e3c959ec6b/thumbnail",
+            "file_variant": "thumbnail",
+            "primary_color": "1d1f20",
+            "image_width": 180,
+            "image_height": 400
+          },
+          "preview_asset": {
+            "url": "/api/f1231da2-074c-48b6-b530-d4aac8ffc1ce/files/1e6ae64e-fcc6-4fd1-b378-20e3c959ec6b/preview",
+            "file_variant": "preview",
+            "primary_color": "1d1f20",
+            "image_width": 704,
+            "image_height": 1568
+          },
+          "uuid": "3ffb7385-98f2-41ef-a99b-fceebfa47ab8"
+        }
+      ],
+      "sync_sources": [],
+      "parent_message_uuid": "db8055e0-e030-4d5a-a16b-ec4dc338d698"
+    },
+    {
+      "uuid": "6cd1a1c5-d35c-486a-ac0b-aabc8acdb237",
+      "text": "",
+      "content": [
+        {
+          "start_timestamp": "2026-09-01T21:01:02.283230Z",
+          "stop_timestamp": "2026-09-01T21:01:15.016284Z",
+          "type": "thinking",
+          "thinking": "",
+          "summaries": [
+            {
+              "summary": "dolore amet enim quis aliqua dolor eiusmod do labore quis adipisc"
+            },
+            {
+              "summary": "magna sed et enim eiusmod et incididunt consectetur lorem se"
+            }
+          ],
+          "cut_off": false,
+          "truncated": false,
+          "hidden": false,
+          "thinking_hidden": true
+        },
+        {
+          "start_timestamp": "2026-09-01T21:01:15.017463Z",
+          "stop_timestamp": "2026-09-01T21:01:15.369087Z",
+          "type": "tool_use",
+          "id": "2ee97b94-e914-4781-af7e-20bbac288f4e",
+          "name": "web_search",
+          "input": {
+            "redacted": true
+          },
+          "message": "enim minim eiusmo",
+          "icon_name": "globe"
+        },
+        {
+          "start_timestamp": "2026-09-01T21:01:16.360540Z",
+          "stop_timestamp": "2026-09-01T21:01:16.360570Z",
+          "type": "tool_result",
+          "tool_use_id": "2ee97b94-e914-4781-af7e-20bbac288f4e",
+          "name": "web_search",
+          "content": [
+            {
+              "type": "redacted"
+            }
+          ],
+          "is_error": false,
+          "icon_name": "globe"
+        },
+        {
+          "start_timestamp": "2026-09-01T21:01:16.988241Z",
+          "stop_timestamp": "2026-09-01T21:01:21.363844Z",
+          "type": "thinking",
+          "thinking": "",
+          "summaries": [
+            {
+              "summary": "amet consectetur et ipsum sed consectetur magna minim e"
+            }
+          ],
+          "cut_off": false,
+          "truncated": false,
+          "hidden": false,
+          "thinking_hidden": true
+        },
+        {
+          "start_timestamp": "2026-09-01T21:01:21.367165Z",
+          "stop_timestamp": "2026-09-01T21:01:29.397439Z",
+          "type": "text",
+          "text": "aliqua consectetur aliqua quis eiusmod amet ut consectetur aliqua eiusmod do magna dolore lorem dolore magna quis enim et sed aliqua lorem dolor quis magna consectetur elit dolore tempor sed dolor sit do labore tempor adipiscing adipiscing eiusmod consectetur enim quis dolor quis consectetur adipiscing minim eiusmod incididunt incididunt elit adipiscing lorem enim magna quis adipiscing dolore ipsum do labore do sit lorem enim elit do labore tempor enim ut consectetur quis labore lorem eiusmod consectetur incididunt tempor sed dolor do dolor tempor enim veniam sed amet ut minim lorem do adipiscing et incididunt adipiscing dolore eiusmod quis incididunt ut aliqua labore labore sit adipiscing dolor sed veniam enim dolor magna eiusmod tempor incididunt labore ipsum aliqua aliqua ipsum elit eiusmod et dolor do ipsum magna ut magna et sed ut dolore sit do elit et amet adipiscing incididunt minim tempor labore minim incididunt tempor quis dolor sed adipiscing elit aliqua elit ut et amet amet lorem ut veniam elit adipiscing dolore incididunt adipiscing eiusmod labore ut magna incididunt sed elit tempor consectetur magna amet magna consectetur consecte",
+          "citations": [
+            {
+              "uuid": "e8ab5a3b-2819-4ffd-8f11-504842280acc",
+              "title": "Student Travel Product (student OV) | Products | NS",
+              "url": "https://www.ns.nl/en/products/students/students-ov",
+              "metadata": {
+                "type": "webpage_metadata",
+                "site_domain": "ns.nl",
+                "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=ns.nl",
+                "site_name": "Nederlandse Spoorwegen"
+              },
+              "origin_tool_name": "web_search",
+              "sources": [
+                {
+                  "title": "Student Travel Product (student OV) | Products | NS",
+                  "url": "https://www.ns.nl/en/products/students/students-ov",
+                  "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ns.nl",
+                  "source": "Nederlandse Spoorwegen",
+                  "uuid": "e8ab5a3b-2819-4ffd-8f11-504842280acc"
+                }
+              ],
+              "start_index": 287,
+              "end_index": 548
+            },
+            {
+              "uuid": "b2fc2b3c-3317-443f-becc-cec1e0234560",
+              "title": "Student Travel Product (student OV) | Products | NS",
+              "url": "https://www.ns.nl/en/products/students/students-ov",
+              "metadata": {
+                "type": "webpage_metadata",
+                "site_domain": "ns.nl",
+                "favicon_url": "https://www.google.com/s2/favicons?sz=64&domain=ns.nl",
+                "site_name": "Nederlandse Spoorwegen"
+              },
+              "origin_tool_name": "web_search",
+              "sources": [
+                {
+                  "title": "Student Travel Product (student OV) | Products | NS",
+                  "url": "https://www.ns.nl/en/products/students/students-ov",
+                  "icon_url": "https://www.google.com/s2/favicons?sz=64&domain=ns.nl",
+                  "source": "Nederlandse Spoorwegen",
+                  "uuid": "b2fc2b3c-3317-443f-becc-cec1e0234560"
+                }
+              ],
+              "start_index": 954,
+              "end_index": 1161
+            }
+          ],
+          "citations_grouping_mode": "paragraph_end"
+        }
+      ],
+      "sender": "assistant",
+      "index": 1,
+      "created_at": "2026-09-01T21:01:29.463757Z",
+      "updated_at": "2026-09-01T21:01:29.463757Z",
+      "input_mode": "text",
+      "truncated": false,
+      "stop_reason": "end_turn",
+      "attachments": [],
+      "files": [],
+      "sync_sources": [],
+      "parent_message_uuid": "0a285d9b-f22f-4c94-a06d-79c1e1d8fb80"
+    }
+  ]
+}
